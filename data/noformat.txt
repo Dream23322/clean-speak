@@ -1,0 +1,709 @@
+{"text":"you're a {SLUR}, get out of the server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"slur directed at a player based on gender identity"}
+{"text":"nobody wants a {SLUR} on our team","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"targeted anti-trans slur"}
+{"text":"you're such a weird {SLUR} lol","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"identity-based slur used to insult a player"}
+{"text":"go away, you {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"slur targeting sexual orientation"}
+{"text":"people like you are disgusting {SLUR}s","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"demeaning identity-based slur"}
+{"text":"you play like a {SLUR}, get lost","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur aimed at a player"}
+{"text":"shut up, you {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"slur targeting race or ethnicity"}
+{"text":"your kind should leave this server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"exclusionary attack based on nationality"}
+{"text":"go back to your country, we don't want you here","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"targeted xenophobic exclusion"}
+{"text":"you don't belong here, {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"religious slur used to exclude a player"}
+{"text":"your religion makes you a freak","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"demeaning attack based on religion"}
+{"text":"nobody wants to play with a {SLUR} like you","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"disability-related slur directed at a player"}
+{"text":"you belong in a hospital, you {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"disability-based slur used as an insult"}
+{"text":"your kind ruins every match","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"generalized attack on a protected group"}
+{"text":"go back where you came from, {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"nationality-based slur and exclusion"}
+{"text":"being trans makes you a joke","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"demeaning a player for gender identity"}
+{"text":"your sexuality is disgusting","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"targeted denigration of sexual orientation"}
+{"text":"you people are all parasites","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"dehumanizing protected group"}
+{"text":"religious players are stupid and don't belong here","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"group-directed religious denigration"}
+{"text":"your accent proves you're a worthless foreigner","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"nationality-based insult"}
+{"text":"you freaks should be banned for being disabled","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"exclusion targeting disability"}
+{"text":"trans people like you are disgusting","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"targeted anti-trans denigration"}
+{"text":"you make the team look bad, you {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"sexual-orientation slur aimed at a player"}
+{"text":"your race makes you bad at everything","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial inferiority claim directed at player"}
+{"text":"people from your country are thieves and don't belong","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"nationality-based stereotype and exclusion"}
+{"text":"you should be ashamed of being Muslim, {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"religious slur and identity-based attack"}
+{"text":"disabled people shouldn't be allowed on this server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"exclusionary attack on disabled people"}
+{"text":"nobody likes a gay {SLUR} on the squad","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"slur and denigration based on sexual orientation"}
+{"text":"your gender identity is fake, freak","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"dismissive attack on gender identity"}
+{"text":"that ethnicity is full of useless players like you","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"ethnic group insult directed at player"}
+{"text":"go play somewhere else, foreign {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"nationality slur used to drive a player away"}
+{"text":"your faith makes you a monster","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"dehumanizing attack based on religion"}
+{"text":"you are worthless because of your disability","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"direct denigration based on disability"}
+{"text":"people like you are a disease on this server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"dehumanizing attack on a protected group"}
+{"text":"ExamplePlayer is a {SLUR}, kick them out","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"slur targeting a third player"}
+{"text":"everyone knows ExamplePlayer is a disgusting {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"third-party identity-based slur"}
+{"text":"those trans players are freaks and should leave","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"group-directed anti-trans exclusion"}
+{"text":"kick the foreign players; they don't belong here","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"calls for excluding players based on nationality"}
+{"text":"ExamplePlayer's religion makes them a monster","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"third-party religious denigration"}
+{"text":"disabled players are useless; ban them all","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"group-directed disability-based exclusion"}
+{"text":"the people on that team are all {SLUR}s","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur aimed at a group of players"}
+{"text":"don't team with ExamplePlayer, they're gay trash","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"third-party insult based on sexual orientation"}
+{"text":"that clan is full of {SLUR}s, keep them out","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"group-targeted nationality slur and exclusion"}
+{"text":"trans people on this server are disgusting freaks","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"group-directed anti-trans denigration"}
+{"text":"I'm going to find you and hurt you after the match","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat of physical violence"}
+{"text":"I'll beat you up if you come back to spawn","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat to assault a player"}
+{"text":"keep talking and I'll stab you","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"explicit threat of serious violence"}
+{"text":"I'm coming to your house to hurt you","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"threat of real-world violence"}
+{"text":"I'll break your jaw next time I see you","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"specific threat of physical harm"}
+{"text":"you're trash at PvP, uninstall noob","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"ordinary gaming trash talk; no protected-class hate"}
+{"text":"ez, you got farmed","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary competitive banter"}
+{"text":"bro you suck at building lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"gameplay insult without identity attack"}
+{"text":"that was the worst clutch ever","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"criticism of gameplay"}
+{"text":"uninstall, this is not your game","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary gaming insult"}
+{"text":"fuck this lag, I can't move","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"profanity expressing frustration at lag"}
+{"text":"this game is shit today","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general venting about the game"}
+{"text":"nice aim, did you close your eyes?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"sarcastic gameplay trash talk"}
+{"text":"my teammate is throwing so hard rn","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"complaint about a teammate's play"}
+{"text":"what a ridiculous combo, I got wrecked","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"gameplay reaction without targeted abuse"}
+{"text":"your base design is ugly as heck","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"criticism of an in-game build"}
+{"text":"that was a dumb move, dude","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary gameplay criticism"}
+{"text":"I keep missing every shot, I'm so bad","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"self-directed frustration"}
+{"text":"camping all game is lame, fight me","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"criticism of play style"}
+{"text":"wow, you got lucky with that hit","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"competitive banter"}
+{"text":"this server is laggy as hell","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"profanity about server performance"}
+{"text":"stop mining in circles, we need diamonds","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"gameplay instruction with no harassment"}
+{"text":"you missed every swing, lmao","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary competitive teasing"}
+{"text":"that was a stupid way to push mid","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"insult directed at gameplay decision"}
+{"text":"I'm tilted, this round is cursed","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general frustration"}
+{"text":"get good, you got outplayed","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary gaming trash talk"}
+{"text":"that was a scuffed bridge, what was that","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"teasing about an in-game action"}
+{"text":"ugh, creepers keep blowing up my stuff","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about game events"}
+{"text":"you absolute clown, missed the easy shot","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"non-identity gameplay insult"}
+{"text":"our team is playing like bots today","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general team criticism"}
+{"text":"that loot was garbage, seriously","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"complaint about game loot"}
+{"text":"you can't bridge to save your life lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"gameplay-based teasing"}
+{"text":"I got destroyed, I'm actually so washed","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"self-deprecating gaming vent"}
+{"text":"your sword aim is tragic","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"criticism of gameplay skill"}
+{"text":"ugh, another fall into the void","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"frustration about an in-game mistake"}
+{"text":"that plan was dumb, let's regroup","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"critique of a strategy"}
+{"text":"noob move, you walked right into the trap","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary game-related insult"}
+{"text":"I'm done, this match is so annoying","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general venting"}
+{"text":"you suck at PvP, but that was a funny fight","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary trash talk about game skill"}
+{"text":"what a terrible spawn, gg I guess","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about an unfavorable game spawn"}
+{"text":"I'm gay and I play on this server","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral self-identification"}
+{"text":"my sister is trans, just so you know","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral mention of a family member's identity"}
+{"text":"does anyone know when Pride month starts?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral question about Pride"}
+{"text":"I'm Muslim and I need to log off for prayer","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral mention of religion"}
+{"text":"trans people exist, please stop arguing about it","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral affirmation of existence"}
+{"text":"what does nonbinary mean?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral identity question"}
+{"text":"my friend is from Brazil and joined the server","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral mention of nationality"}
+{"text":"is that word offensive to disabled people?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"question about respectful language"}
+{"text":"she's Jewish and likes building farms","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral statement mentioning religion"}
+{"text":"can players from different countries join the same team?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral question about nationality and teams"}
+{"text":"I'm learning about different religions lately","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral discussion of religion"}
+{"text":"my cousin uses a wheelchair and loves Minecraft","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral mention of disability"}
+{"text":"are there any other gay players here?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral question about community identity"}
+{"text":"we have players from several countries in this lobby","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral observation about nationality"}
+{"text":"my pronouns are they and them","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral sharing of pronouns"}
+{"text":"what's the difference between ethnicity and nationality?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral informational question"}
+{"text":"he's Christian, but we're just talking about the build","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"incidental neutral mention of religion"}
+{"text":"is being trans okay on this server?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral question about server acceptance"}
+{"text":"my new teammate is from Kenya","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral mention of nationality"}
+{"text":"I have dyslexia, so I sometimes miss chat messages","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral self-disclosure about disability"}
+{"text":"that was a dumb move in the last round","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"insult-like word refers to gameplay, not identity"}
+{"text":"the word {SLUR} is offensive, right?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"asks about a slur without directing it at anyone"}
+{"text":"I'm so stupid, I forgot to bring blocks","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"self-directed insult about an in-game mistake"}
+{"text":"my gay friend built this castle","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral identity mention"}
+{"text":"that clutch was insane, you're crazy good","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"positive slang using an insult-like word"}
+{"text":"our Muslim teammate is carrying the round","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral identity mention with gameplay praise"}
+{"text":"I messed up the redstone again, what an idiot","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"self-directed frustration"}
+{"text":"trans is an identity word, not an insult","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral statement about identity language"}
+{"text":"that was a lame excuse for losing","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"ordinary insult-like criticism without protected-class target"}
+{"text":"my teammate has a disability and still loves PvP","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral mention of disability"}
+{"text":"is the word queer always offensive?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral question about identity language"}
+{"text":"you people are annoying","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear whether 'you people' refers to a protected group"}
+{"text":"that group should leave the lobby","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"the group being targeted is not identified"}
+{"text":"don't let them join us again","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear who 'them' refers to or why they are excluded"}
+{"text":"they're all weird, you know what I mean","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"the referent of 'they' is missing"}
+{"text":"I can't stand that kind of player","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear whether this means a play style or an identity group"}
+{"text":"those people don't belong here","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"exclusion is clear but the target group is unspecified"}
+{"text":"what a freak, they should be gone","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear whether the insult targets identity or behavior"}
+{"text":"keep that stuff away from this server","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"the meaning of 'that stuff' is unclear"}
+{"text":"you know what you are, get out","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"the implied insult and its target are not identifiable"}
+{"text":"they don't fit in with normal players","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear whether 'they' refers to identity or play style"}
+{"text":"you're a loser at PvP, go practice","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"gameplay insult without protected-class attack"}
+{"text":"this build is ugly, start over lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"criticism of an in-game build"}
+{"text":"you suck so bad at building, get good","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary trash talk about skill"}
+{"text":"ffs lag killed my tower again","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about lag"}
+{"text":"stop griefing, you are the worst","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"generic insult, not protected"}
+{"text":"ez pvp, you can't even dodge","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"trash talk about PvP"}
+{"text":"what a noob, uninstall already","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"typical gaming insult"}
+{"text":"that redstone contraption is trash","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"negative comment about build"}
+{"text":"wtf server lag again lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about server performance"}
+{"text":"you are a {SLUR} player, get lost","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"targeted anti-trans slur"}
+{"text":"go back to your country, you don't belong here","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"nationality-based harassment"}
+{"text":"you're a {SLUR}, get out of my farm","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur targeting a player"}
+{"text":"noobs like you ruin everything, stop","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general trash talk"}
+{"text":"that build is cringe, like a {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"offensive slur used as insult"}
+{"text":"I think the new update is broken","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral discussion about update"}
+{"text":"anyone know how to breed cows?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral question"}
+{"text":"my sister is gay, is that weird?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"identity discussion, hard negative"}
+{"text":"trans players are ruining the server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"targeted harassment of trans players"}
+{"text":"someone should kill ExamplePlayer now","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat of violence"}
+{"text":"who killed the ender dragon?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral game question"}
+{"text":"I don't like how that {SLUR} group plays","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"targeted hate with slur"}
+{"text":"what the hell is a nether portal?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"basic gameplay question"}
+{"text":"hey, should I farm iron or diamonds?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral resource question"}
+{"text":"you're a {SLUR} farmer, stop stealing my crops","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur targeting player"}
+{"text":"the server is full of bots, ugh","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"generic complaint"}
+{"text":"this chat is full of spammers, get them out","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general complaint about spamming"}
+{"text":"Do you think a {SLUR} would be good in a build?","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur used in suggestion"}
+{"text":"can anyone help me find a diamond vein?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"request for help"}
+{"text":"you are such a {SLUR} loser","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur used as insult"}
+{"text":"my cousin is bisexual and asks why I'm not?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"identity discussion, hard negative"}
+{"text":"who's the best PvP streamer?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral entertainment question"}
+{"text":"I hate that group of {SLUR} players","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"targeted hate toward a group"}
+{"text":"stop being a {SLUR} and learn redstone","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur used as criticism"}
+{"text":"this server is toxic, I'm leaving","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about server toxicity"}
+{"text":"someone should kill ExamplePlayer with a sword","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat of violence"}
+{"text":"any tips for enchanting?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral question about game mechanics"}
+{"text":"you're a {SLUR} and your clan is lame","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur targeting player and group"}
+{"text":"example.com is down, anyone else seeing this?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"technical issue report"}
+{"text":"my friend is trans and they are awesome","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"positive identity mention, hard negative"}
+{"text":"you are a total noob, get rekt","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"standard trash talk"}
+{"text":"that {SLUR} building is the worst","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur used to insult a build"}
+{"text":"Please stop using that {SLUR} skin?","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur used to target skin"}
+{"text":"anyone up for a night raid?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"invitation for gameplay"}
+{"text":"what a {SLUR} mess?","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur used generically"}
+{"text":"why does my pickaxe break so fast?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about durability"}
+{"text":"Your mom...","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"generic insult, not protected"}
+{"text":"I think we should ban all {SLUR} players from the server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"call for banning based on race"}
+{"text":"what is the best way to farm obsidian?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral farming question"}
+{"text":"I can't afford the server fees!","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about cost"}
+{"text":"Is it okay to use {SLUR}??","question":"yes","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear if slur usage is hateful"}
+{"text":"I don't know if I'm... maybe ...","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ambiguous, context missing"}
+{"text":"Your skin is weird...","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"lack of context to determine harassment"}
+{"text":"maybe we should talk ...","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"insufficient context"}
+{"text":"why does my farm be...…","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear wording"}
+{"text":"I think {SLUR} might be..."","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ambiguous ambiguous"}
+{"text":"you suck so bad at building, get good","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary trash talk about skill"}
+{"text":"ffs lag killed my tower again","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about lag"}
+{"text":"stop griefing, you are the worst","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"generic insult, not protected"}
+{"text":"ez pvp, you can't even dodge","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"trash talk about PvP"}
+{"text":"what a noob, uninstall already","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"typical gaming insult"}
+{"text":"that redstone contraption is trash","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"negative comment about build"}
+{"text":"wtf server lag again lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about server performance"}
+{"text":"you are a {SLUR} player, get lost","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"targeted anti-trans slur"}
+{"text":"go back to your country, you don't belong here","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"nationality-based harassment"}
+{"text":"you're a {SLUR}, get out of my farm","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur targeting a player"}
+{"text":"noobs like you ruin everything, stop","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general trash talk"}
+{"text":"that build is cringe, like a {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"offensive slur used as insult"}
+{"text":"I think the new update is broken","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral discussion about update"}
+{"text":"anyone know how to breed cows?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral question"}
+{"text":"my sister is gay, is that weird?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"identity discussion, hard negative"}
+{"text":"trans players are ruining the server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"targeted harassment of trans players"}
+{"text":"someone should kill ExamplePlayer now","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat of violence"}
+{"text":"who killed the ender dragon?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral game question"}
+{"text":"I don't like how that {SLUR} group plays","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"targeted hate with slur"}
+{"text":"what the hell is a nether portal?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"basic gameplay question"}
+{"text":"hey, should I farm iron or diamonds?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral resource question"}
+{"text":"you're a {SLUR} farmer, stop stealing my crops","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur targeting player"}
+{"text":"the server is full of bots, ugh","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"generic complaint"}
+{"text":"this chat is full of spammers, get them out","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general complaint about spamming"}
+{"text":"Do you think a {SLUR} would be good in a build?","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur used in suggestion"}
+{"text":"can anyone help me find a diamond vein?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"request for help"}
+{"text":"you are such a {SLUR} loser","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur used as insult"}
+{"text":"my cousin is bisexual and asks why I'm not?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"identity discussion, hard negative"}
+{"text":"who's the best PvP streamer?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral entertainment question"}
+{"text":"I hate that group of {SLUR} players","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"targeted hate toward a group"}
+{"text":"stop being a {SLUR} and learn redstone","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur used as criticism"}
+{"text":"this server is toxic, I'm leaving","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about server toxicity"}
+{"text":"someone should kill ExamplePlayer with a sword","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat of violence"}
+{"text":"any tips for enchanting?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral question about game mechanics"}
+{"text":"you're a {SLUR} and your clan is lame","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur targeting player and group"}
+{"text":"example.com is down, anyone else seeing this?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"technical issue report"}
+{"text":"my friend is trans and they are awesome","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"positive identity mention, hard negative"}
+{"text":"you are a total noob, get rekt","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"standard trash talk"}
+{"text":"that {SLUR} building is the worst","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur used to insult a build"}
+{"text":"Please stop using that {SLUR} skin?","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur used to target skin"}
+{"text":"anyone up for a night raid?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"invitation for gameplay"}
+{"text":"what a {SLUR} mess?","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur used generically"}
+{"text":"why does my pickaxe break so fast?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about durability"}
+{"text":"Your mom...","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"generic insult, not protected"}
+{"text":"I think we should ban all {SLUR} players from the server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"call for banning based on race"}
+{"text":"what is the best way to farm obsidian?","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"neutral farming question"}
+{"text":"I can't afford the server fees!","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about cost"}
+{"text":"Is it okay to use {SLUR}??","question":"yes","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear if slur usage is hateful"}
+{"text":"I don't know if I'm... maybe ...","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ambiguous, context missing"}
+{"text":"Your skin is weird...","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"lack of context to determine harassment"}
+{"text":"maybe we should talk ...","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"insufficient context"}
+{"text":"why does my farm be...…","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"unclear wording"}
+{"text":"I think {SLUR} might be..."","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ambiguous ambiguous"}
+The breakdown you specified adds up to 135, not 140. I've added 5 extra ordinary shit-talk examples to reach 140, so that category has 40 rows instead of 35.
+
+{"text":"go back to your country ExamplePlayer","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"telling a player to go back to their country is targeted nationality hate"}
+{"text":"ur so {SLUR} lol stay off my server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"slur aimed at a player's sexual orientation"}
+{"text":"trans people are a disease, ExamplePlayer","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"dehumanizing statement about trans people aimed at a player"}
+{"text":"Muslims shouldn't be allowed to play here","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"exclusionary hate toward a religious group"}
+{"text":"stupid {SLUR} from the other side of the ocean","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"slur combined with nationality insult aimed at a player"}
+{"text":"ExamplePlayer is a {SLUR} with no brain, typical","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur directed at a player"}
+{"text":"all you {SLUR}s stink up this server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur aimed at a group of players"}
+{"text":"retarded players like you should get banned","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"ableist slur aimed at players with disabilities"}
+{"text":"autistic freaks like you ruin every server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"disability-based dehumanizing insult aimed at a player"}
+{"text":"jews run this server and they're ruining it","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"antisemitic conspiracy-style hate aimed at a group"}
+{"text":"nobody wants a {SLUR} like you in the lobby","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"slur used to exclude a player based on gender identity"}
+{"text":"you're not even a real man, {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"anti-gay slur used as a direct insult to a player"}
+{"text":"crippled players should just quit the game","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"telling disabled players to quit is targeted disability hate"}
+{"text":"your kind isn't welcome here, go home","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"exclusionary nationality-based hate aimed at a player"}
+{"text":"ExamplePlayer is a freak for being gay, delete the game","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"attacks a player for sexual orientation and tells them to leave"}
+{"text":"those {SLUR}s can't play for shit","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"anti-trans slur aimed at a group"}
+{"text":"keep your {SLUR} religion off my server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"slur combined with religious attack aimed at a player"}
+{"text":"{SLUR}s don't belong on this server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur used to exclude a group"}
+{"text":"{SLUR} go home","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"slur plus exclusionary nationality hate"}
+{"text":"dumb mentally ill losers should stay offline","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"mental illness slur aimed at players"}
+{"text":"you're a {SLUR} and your mom knows it","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur insult aimed at a player; no protected group specified"}
+{"text":"ExamplePlayer, a real man would never be as {SLUR} as you","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"uses anti-gay slur to demean a player"}
+{"text":"you're a {SLUR} in a skirt, go away","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"anti-trans slur used to demean a player's gender"}
+{"text":"these Chinese players are cheating, they're all {SLUR}s","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"ethnic slur aimed at a group of players"}
+{"text":"transgender players are mentally sick, they should be banned","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"dehumanizing claim about trans players and call for exclusion"}
+{"text":"atheists are idiots and should leave the server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"religion","hard_negative":false,"language":"en","note":"demeaning generalization about a religious-belief group with exclusion"}
+{"text":"you Indians always lag the server","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"nationality-based generalization aimed at a player"}
+{"text":"back to the desert, {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"racial slur with exclusionary remark aimed at a player"}
+{"text":"disabled people shouldn't be allowed to play ranked","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"disability","hard_negative":false,"language":"en","note":"exclusionary statement targeting disabled players"}
+{"text":"ExamplePlayer is a {SLUR}, lol, always has been","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur insult aimed at a player with no protected group named"}
+{"text":"ExamplePlayer2 is a {SLUR}, somebody mute this {SLUR}","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur aimed at a third player, a targeted insult about a bystander"}
+{"text":"ExamplePlayer3 is a {SLUR} and their whole clan is too","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur aimed at a third player and their group"}
+{"text":"hey ExamplePlayer4, nobody likes your {SLUR} clan, get lost","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur aimed at a third player and their clan"}
+{"text":"all the {SLUR}s in this clan should be kicked, ExamplePlayer5 included","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"slur aimed at a group, with a named third player included"}
+{"text":"the {SLUR} kids on ExamplePlayer6's team need to go back where they came from","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"nationality-based exclusion aimed at a third player's team"}
+{"text":"ExamplePlayer7 is such a {SLUR}, every game with them is a joke","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"anti-gay slur aimed at a third player"}
+{"text":"ExamplePlayer8 and the other {SLUR}s from that server should quit","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"gender_identity","hard_negative":false,"language":"en","note":"anti-trans slur aimed at a third player and a group"}
+{"text":"someone tell ExamplePlayer9 that their people are a disease","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HATE","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"dehumanizing group-based hate aimed at a third player"}
+{"text":"ExamplePlayer10 is a {SLUR}, let's make the whole server gang up on them","channel":"public_chat","label":"REPHRASE","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"slur plus call for group harassment of a third player"}
+{"text":"I'll break your legs irl, ExamplePlayer","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat of physical violence against a named player"}
+{"text":"ExamplePlayer better log off or I'm coming to your house tonight","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat of violence at a player's home"}
+{"text":"I know where you live ExamplePlayer, you're getting hurt","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat implying physical harm and knowledge of location"}
+{"text":"ExamplePlayer2 I will end you after the match, see you outside","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"direct threat of violence against a named player"}
+{"text":"someone should shoot ExamplePlayer3 for that, they deserve it","channel":"public_chat","label":"BLOCK","category":"THREAT","targeted":true,"target_group":"none","hard_negative":false,"language":"en","note":"incitement to violence against a named player"}
+{"text":"you're trash at PvP, uninstall noob","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary gaming trash talk with no protected-class hate"}
+{"text":"ez clap, go afk","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"common gaming taunt"}
+{"text":"fuck this lag, I'm out","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about server lag with profanity"}
+{"text":"this game is shit lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about the game with mild profanity"}
+{"text":"you suck at bedwars ExamplePlayer","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary gaming insult"}
+{"text":"ur so stupid how did you even get here","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general insult about skill, not a protected identity"}
+{"text":"lmaooo you got rekt by a chicken","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"playful mockery in gameplay"}
+{"text":"bro that was the worst build i've ever seen","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"critique of a build, no targeting of identity"}
+{"text":"uninstall, you're useless","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"general gaming dismissal"}
+{"text":"this server is dead, what a waste of time","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about the server"}
+{"text":"how is this kid so bad at crystal pvp","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"mockery of gameplay skill"}
+{"text":"wtf was that hit reg, fix ur server","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"complaint about hit registration"}
+{"text":"you're a noob and you know it","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"ordinary trash talk about skill"}
+{"text":"gg ez, you're so bad lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"gaming taunt"}
+{"text":"I'm so tilted rn, this map is cursed","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting frustration about a map"}
+{"text":"who taught you to build like that","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"light teasing about building"}
+{"text":"that mob farm is garbage, redo it","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"criticism of a build"}
+{"text":"stop feeding you stupid goober","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"mild insult about in-game behavior"}
+{"text":"lol you're so sweaty","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"gaming slang teasing"}
+{"text":"dude you're absolute garbage at this","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"blunt trash talk about skill"}
+{"text":"wow you really are braindead today","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"insult about play, no protected identity"}
+{"text":"fml this server's laggy af","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about server performance"}
+{"text":"ur team is trash, bye","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"trash talk about a team"}
+{"text":"ExamplePlayer just rage quit lmao","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"teasing about a quit"}
+{"text":"shit spawn, moving on","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about a bad spawn"}
+{"text":"bruh this drop rate is bullshit","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about game mechanics"}
+{"text":"you're a walking meme honestly","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"light teasing"}
+{"text":"ExamplePlayer your pearl throws are embarrassing","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"gameplay criticism"}
+{"text":"nice try idiot, still losing","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"trash talk during a match"}
+{"text":"kys lol jk gg","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"joking gaming insult with no threat"}
+{"text":"this is the worst pvp server i've ever played on","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"venting about server quality"}
+{"text":"how do you still not know how to dodge, bro","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"mockery of skill"}
+{"text":"bro I'm so bad at this map omg","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"self-deprecating venting"}
+{"text":"anyone else's game crashing every 5 min or is it just me","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":false,"language":"en","note":"technical complaint"}
+{"text":"I'm gay and I'm still better at bedwars than you","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"sexual_orientation","hard_negative":true,"language":"en","note":"identity statement with ordinary trash talk, no targeting"}
+{"text":"I'm trans and I've been grinding this server for years","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"gender_identity","hard_negative":true,"language":"en","note":"self-identification, no hate"}
+{"text":"she's Muslim and she runs the best farm on this server","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"religion","hard_negative":true,"language":"en","note":"neutral identity mention"}
+{"text":"trans people exist and they play Minecraft too","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"gender_identity","hard_negative":true,"language":"en","note":"neutral statement about a group"}
+{"text":"is the word 'queer' offensive or can I use it","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"sexual_orientation","hard_negative":true,"language":"en","note":"neutral question about language usage"}
+{"text":"I'm Black and I've been playing on this server since 2019","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"race_ethnicity","hard_negative":true,"language":"en","note":"self-identification, neutral"}
+{"text":"anyone here from Germany? I'm looking for a Euro-friendly clan","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"nationality","hard_negative":true,"language":"en","note":"neutral nationality question"}
+{"text":"my grandma is deaf, she taught me how to build in sign language","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"disability","hard_negative":true,"language":"en","note":"neutral mention of disability"}
+{"text":"I use a wheelchair IRL but I still crush you on the server","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"disability","hard_negative":true,"language":"en","note":"self-identification with trash talk, not hate"}
+{"text":"does anyone know if the server allows non-binary skins","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"gender_identity","hard_negative":true,"language":"en","note":"neutral question about skins"}
+{"text":"I'm Catholic, is there a church event on the server this weekend","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"religion","hard_negative":true,"language":"en","note":"neutral religious identity question"}
+{"text":"my cousin is a lesbian and she's a great builder, check her spawn","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"sexual_orientation","hard_negative":true,"language":"en","note":"neutral mention of sexual orientation"}
+{"text":"I'm Mexican and we're making tacos at spawn, come eat","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"nationality","hard_negative":true,"language":"en","note":"neutral nationality invitation"}
+{"text":"is it rude to ask someone their pronouns in chat","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"gender_identity","hard_negative":true,"language":"en","note":"neutral etiquette question"}
+{"text":"I'm a Hindu and I'm fasting today so I'll be slow to respond","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"religion","hard_negative":true,"language":"en","note":"neutral religious identity statement"}
+{"text":"my dad is blind and he still plays better than half this server","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"disability","hard_negative":true,"language":"en","note":"neutral family mention with light trash talk"}
+{"text":"which language is the server's rules written in, English or Spanish","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"nationality","hard_negative":true,"language":"en","note":"neutral language question"}
+{"text":"I'm asexual, is there a server for that or should I make one","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"sexual_orientation","hard_negative":true,"language":"en","note":"neutral self-identification and question"}
+{"text":"Is it okay to say 'Asian' or should I say East Asian","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"race_ethnicity","hard_negative":true,"language":"en","note":"neutral question about terminology"}
+{"text":"the Jewish holiday is tomorrow so I'll be offline, sorry all","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"religion","hard_negative":true,"language":"en","note":"neutral religious scheduling note"}
+{"text":"this boss fight is brutal, my brain is fried lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"insult-like wording describing a game difficulty, not a protected group"}
+{"text":"my brain's cooked after that grind, dude","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"figurative venting, no targeting"}
+{"text":"this lag is so retarded, why is the TPS at 4","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"slang insult at lag, not aimed at a protected group"}
+{"text":"that creeper spawn was insane, nearly got me killed","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"game reference with no targeting"}
+{"text":"I'm dying to see the new update, when does it drop","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"idiomatic use of dying"}
+{"text":"this map is so gay, the colors are everywhere","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"describing a map's colors, not targeting a person"}
+{"text":"I'm literally blind after that night vision bug lol","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"figurative use of blind about a game bug"}
+{"text":"my pickaxe is so lame, someone give me a better one","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"mild insult word about an item"}
+{"text":"I'm so crazy about this new build, you have to see it","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"enthusiastic use of crazy"}
+{"text":"the raid boss is a psycho, I can't handle the spawn rate","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"insult-like word about a boss, not a person"}
+{"text":"bro this shulker is ghetto, drop the xp farm plans","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"informal word describing a build, no targeting of a group"}
+{"text":"I'm hard of hearing so use chat please","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"disability","hard_negative":true,"language":"en","note":"neutral accommodation request"}
+{"text":"that jumpscare made me lose my mind, dead serious","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"idiomatic venting"}
+{"text":"the mob grinder is so cancer, it lags the whole chunk","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"slang describing a machine's lag, no person targeted"}
+{"text":"the new boss is a total bitch to fight, ngl","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"profanity describing a game boss, not a person"}
+{"text":"I've been playing on this server so long I'm basically a ghost now","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"figurative language, no targeting"}
+{"text":"my rank is so low, I'm basically a potato","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"self-deprecating joke"}
+{"text":"this server's economy is a joke, the prices are insane","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"complaint about economy"}
+{"text":"ugh, the spawn is so ugly, why do they keep building there","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"aesthetic criticism of a location"}
+{"text":"that spawn trap was so sneaky, I'm impressed","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"praise with a gaming term"}
+{"text":"anyone wanna trade diamonds for my iron? dm me","channel":"public_chat","label":"ALLOW","category":"NONE","targeted":false,"target_group":"none","hard_negative":true,"language":"en","note":"neutral trading request"}
+{"text":"is the Jewish-owned trading hall still open or is it closed for Shabbat","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"religion","hard_negative":true,"language":"en","note":"ambiguous: neutral scheduling question, but could be bait for a targeted remark; context insufficient"}
+{"text":"we don't need more {SLUR}s on this server, do we","channel":"public_chat","label":"REVIEW","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"ambiguous: could be a rhetorical exclusion or a question about reclaimed usage; context insufficient"}
+{"text":"lol these people always lag, what do you expect","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"other","hard_negative":false,"language":"en","note":"ambiguous: 'these people' with no identity given; could be ordinary venting or generalized attack"}
+{"text":"ExamplePlayer is such a {SLUR} at this, not surprised","channel":"public_chat","label":"REVIEW","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"ambiguous: slur used about a player's skill, could be friendly banter between regulars"}
+{"text":"that's so gay of you lol","channel":"public_chat","label":"REVIEW","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"sexual_orientation","hard_negative":false,"language":"en","note":"ambiguous: casual slang that may be targeted or just a joke about an action; context insufficient"}
+{"text":"you people always do this, typical","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"other","hard_negative":false,"language":"en","note":"ambiguous: unclear group reference, could be venting"}
+{"text":"ExamplePlayer, you're the reason this server is dying, the sooner you leave the better","channel":"public_chat","label":"REVIEW","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"ambiguous: harsh but no protected identity or threat; could be serious harassment or venting"}
+{"text":"go back where you came from, nobody asked for your opinion","channel":"public_chat","label":"REVIEW","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"nationality","hard_negative":false,"language":"en","note":"ambiguous: could be exclusionary nationality hate or a generic dismissal; the origin of the target is not given"}
+{"text":"these people always play like trash, what's wrong with them","channel":"public_chat","label":"REVIEW","category":"NONE","targeted":false,"target_group":"other","hard_negative":false,"language":"en","note":"ambiguous: unspecified group, could be generalized insult or ordinary trash talk"}
+{"text":"the {SLUR} kids are always cheating, every time","channel":"public_chat","label":"REVIEW","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"race_ethnicity","hard_negative":false,"language":"en","note":"ambiguous: slur in a generalization about a group, context on who is meant is missing"}
+{"text":"you're literally a walking {SLUR} at this point ngl","channel":"public_chat","label":"REVIEW","category":"TARGETED_HARASSMENT","targeted":true,"target_group":"other","hard_negative":false,"language":"en","note":"ambiguous: slur used as a joke insult, could be playful or harassment without context"}
+
+ Here are 140 unique examples for the Minecraft Java server chat classifier dataset:
+
+```
+{
+   "text": "you're just a {SLUR}, get out.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "sexual_orientation",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted homophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, nobody wants you here.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "gender_identity",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted anti-trans slur directed at a player"
+}
+{
+   "text": "you're just a {SLUR}, go back to your country.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "nationality",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted xenophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, you don't belong here.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "sexual_orientation",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted homophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, go play with your own kind.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "sexual_orientation",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted homophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, you'll never be one of us.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "sexual_orientation",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted homophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, go back to your cesspool.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "nationality",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted xenophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, you don't belong here.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "sexual_orientation",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted homophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, go back to your {SLUR} country.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "nationality",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted xenophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, go back to your {SLUR} hole.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "nationality",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted xenophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, you don't belong here.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "sexual_orientation",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted homophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, go play with your own kind.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "sexual_orientation",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted homophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, you'll never be one of us.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "sexual_orientation",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted homophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, go back to your cesspool.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_group": "nationality",
+   "hard_negative": false,
+   "language": "en",
+   "note": "targeted xenophobic slur aimed at a player"
+}
+{
+   "text": "you're just a {SLUR}, you don't belong here.",
+   "channel": "public_chat",
+   "label": "REPHRASE",
+   "category": "TARGETED_HATE",
+   "targeted": true,
+   "target_
+
+    {
+      "text": "you're just a {SLUR}, get out.",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're a {SLUR}, go back to your country",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "nationality",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted xenophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're a weird {SLUR}",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HARASSMENT",
+      "targeted": true,
+      "target_group": "gender_identity",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted transphobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you don't belong here",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you'll never be good at this game",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HARASSMENT",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you don't belong in this server",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, go play somewhere else",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you'll never be good at this game",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HARASSMENT",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you don't belong in this server",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, go play somewhere else",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you don't belong here",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you'll never be good at this game",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HARASSMENT",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you don't belong in this server",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, go play somewhere else",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language": "en",
+      "note": "targeted homophobic slur directed at a player"
+   }
+
+   {
+      "text": "you're just a {SLUR}, you don't belong here",
+      "channel": "public_chat",
+      "label": "REPHRASE",
+      "category": "TARGETED_HATE",
+      "targeted": true,
+      "target_group": "sexual_orientation",
+      "hard_negative": false,
+      "language":
+

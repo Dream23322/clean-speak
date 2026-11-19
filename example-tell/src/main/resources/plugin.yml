@@ -1,0 +1,40 @@
+name: CleanSpeakTellExample
+version: '${version}'
+main: dev.cleanspeak.example.tell.ExampleTellPlugin
+api-version: '1.21'
+authors: [CleanSpeak contributors]
+description: Example async /tell, /msg and /reply plugin that moderates before delivery through the CleanSpeak API.
+load: POSTWORLD
+depend: [CleanSpeak]
+
+commands:
+  tell:
+    description: Send a private message after CleanSpeak moderation
+    usage: /tell <player> <message>
+    aliases: [msg, w, etell, emsg]
+    permission: cleanspeak.example.tell
+  reply:
+    description: Reply to the last person you messaged
+    usage: /reply <message>
+    aliases: [r, ereply]
+    permission: cleanspeak.example.tell
+  ignore:
+    description: Stop receiving example private messages from a player
+    usage: /ignore <player>
+    permission: cleanspeak.example.ignore
+  unignore:
+    description: Allow a player to message you again
+    usage: /unignore <player>
+    permission: cleanspeak.example.ignore
+  ignorelist:
+    description: List players you have ignored
+    usage: /ignorelist
+    permission: cleanspeak.example.ignore
+
+permissions:
+  cleanspeak.example.tell:
+    description: Use the example private messaging commands
+    default: true
+  cleanspeak.example.ignore:
+    description: Use the example ignore list
+    default: true

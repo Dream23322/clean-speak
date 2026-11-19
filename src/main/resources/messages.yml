@@ -1,0 +1,14 @@
+# Player-facing message templates.
+#
+# Placeholders:
+#   {category}    configured check display-name
+#   {request_id}  moderation request id
+#
+# Keep these short and non-accusatory. Do not include the original prohibited
+# text. The plugin appends a request id for blocked notices when the template
+# does not already include it.
+
+player:
+  rephrase: "Your message was not delivered. Please rephrase it without {category}."
+  block: "Your message was not delivered because it matched a clear {category} rule. Please rephrase it without {category}."
+  review: "Your message was not delivered and has been sent to staff for review."

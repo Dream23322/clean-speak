@@ -1,0 +1,6 @@
+# Example /tell plugin configuration.
+# The messaging plugin owns recipient resolution, ignore lists and delivery.
+# CleanSpeak returns a decision; this plugin never delivers a rejected message.
+moderation-timeout-ms: 5000
+conversation-max-pending: 8
+conversation-max-active: 2000

@@ -1,0 +1,81 @@
+# CleanSpeak per-check configuration
+#
+# This mirrors the check-oriented style used by anticheats: each check has its
+# own enabled/action/display/threshold settings. Global behavior remains in
+# config.yml. Rules and lexicons remain in rules.yml.
+#
+# Disable a check here if you do not want that category to affect delivery or
+# model policy. The rule engine still computes local matches for diagnostics, but
+# disabled checks are excluded from decisions and model score policy.
+#
+# Base text actions are ALLOW, REPHRASE, REVIEW and BLOCK. actions.yml can
+# escalate a check at a violation threshold with [block], [review], [alert] or a
+# console command. CleanSpeak has no ban/kick action and does not store mutes.
+#
+# REVIEW stops text delivery and creates a staff-visible decision. The default
+# text action is to stop delivery and ask the player to rephrase.
+
+targeted-harassment:
+  enabled: true
+  action: REPHRASE
+  display-name: "targeted harassment"
+  description: "Direct degradation or exclusion aimed at a player or small group."
+  ml:
+    review-threshold: 0.55
+    block-threshold: 0.88
+
+hate-slurs:
+  enabled: true
+  action: REPHRASE
+  display-name: "hate speech or slurs"
+  description: "Slurs or hate directed at people or groups, including obfuscated forms."
+  ml:
+    review-threshold: 0.55
+    block-threshold: 0.85
+
+threats:
+  enabled: true
+  action: BLOCK
+  display-name: "threats"
+  description: "Credible threats of violence or real-world harm."
+  ml:
+    review-threshold: 0.50
+    block-threshold: 0.85
+
+spam:
+  enabled: true
+  action: REPHRASE
+  display-name: "spam or flooding"
+  description: "Repeated messages, flooding, excessive caps or link spam."
+  ml:
+    review-threshold: 0.65
+    block-threshold: 0.90
+
+scam-advertising:
+  enabled: true
+  action: BLOCK
+  display-name: "scam links or prohibited advertising"
+  description: "Known scam domains, suspicious links and server advertising when enabled."
+  ml:
+    review-threshold: 0.60
+    block-threshold: 0.88
+
+profanity:
+  # The starter profanity rule in rules.yml is disabled by default. Enable both
+  # this check and the rule if your community wants general profanity filtered.
+  enabled: false
+  action: REPHRASE
+  display-name: "profanity"
+  description: "General swearing. Off by default so ordinary shit talk is not over-filtered."
+  ml:
+    review-threshold: 0.70
+    block-threshold: 0.95
+
+other:
+  enabled: true
+  action: REVIEW
+  display-name: "other"
+  description: "Fallback category for limits or uncategorized diagnostics."
+  ml:
+    review-threshold: 0.55
+    block-threshold: 0.88

@@ -1,0 +1,142 @@
+# CleanSpeak 1.0 default configuration
+#
+# SAFETY DEFAULTS:
+# - Text enforcement is ON by default. Targeted messages are cancelled and the
+#   sender is asked to rephrase. Set text.shadow-mode: true to log only.
+# - No action in this plugin can ban or kick a player.
+#
+# Read docs/ROLLOUT.md before changing these values.
+
+config-version: 2
+policy-version: "2026.11.18.1"
+
+text:
+  enabled: true
+  # true = log the would-be action but allow delivery.
+  shadow-mode: false
+
+  # RULES_ONLY is the default. It runs local rules synchronously before delivery
+  # and never waits for the optional model. It preserves signed chat and existing
+  # chat formatters.
+  #
+  # ASYNC_REPLAY cancels every inspected message, runs async rules + ML and then
+  # re-broadcasts an approved message as an unsigned system message. Signing,
+  # reportability and chat formatter output are changed. Experimental.
+  delivery-mode: RULES_ONLY
+
+  notify-blocked: true
+  # 0 means every blocked message gets a notice. The message is always blocked;
+  # this only controls the repeated notice.
+  notice-cooldown-seconds: 0
+  max-message-length: 512
+
+  context:
+    # Ephemeral, in-memory only. Used for split-message and duplicate checks.
+    max-messages: 3
+    ttl-seconds: 45
+    max-keys: 5000
+
+  # Per-check enable/display/thresholds live in checks.yml. Threshold actions
+  # and console commands live in actions.yml. Player-facing wording lives in
+  # messages.yml. The old category-actions / ml.thresholds blocks are still read
+  # as fallbacks for existing installs.
+
+  ml:
+    # The plugin ships a bundled hashed model. Leave endpoint empty to use it.
+    # Set endpoint to use an external localhost sidecar instead.
+    enabled: true
+    endpoint: ""
+    # Non-loopback/private endpoints are rejected unless this is explicitly true.
+    allow-remote-endpoint: false
+    model-version: "bundled-v1"
+    timeout-ms: 800
+    failure-mode: RULES_ONLY
+    # When false, a model score can request REVIEW but cannot by itself block.
+    may-block: false
+    min-confidence: 0.55
+    # Per-category thresholds live in checks.yml.
+
+links:
+  scam-enabled: true
+  advertising-enabled: false
+  scam-action: BLOCK
+  advertising-action: REPHRASE
+  allowlist:
+    - "example.com"
+  blocklist:
+    - "grabify.link"
+    - "iplogger.org"
+    - "iplogger.com"
+    - "2no.co"
+    - "yip.su"
+    - "blasze.com"
+  shorteners:
+    - "bit.ly"
+    - "tinyurl.com"
+    - "t.co"
+    - "goo.gl"
+    - "is.gd"
+    - "cutt.ly"
+    - "shorturl.at"
+    - "rb.gy"
+  suspicious-tlds: []
+
+spam:
+  max-messages-per-window: 6
+  window-seconds: 10
+  duplicate-threshold: 3
+  max-caps-ratio: 0.80
+  max-repeated-character-run: 14
+  max-urls: 4
+  action: REPHRASE
+  duplicate-action: REPHRASE
+  caps-action: REPHRASE
+
+queues:
+    packet-queue: 256
+    decode-workers: 1
+    max-buffer-seconds: 12
+
+queues:
+  api-workers: 2
+  api-capacity: 256
+  request-timeout-ms: 1500
+  conversation-max-pending: 8
+  conversation-max-active: 2000
+
+privacy:
+  # Players see this once when they join. Keep it short and accurate.
+  join-notice: true
+  join-notice-message: "&eThis server may analyse public chat for moderation. Ask staff for details."
+  # Raw public/private message text is not written to disk by default.
+  retain-raw-text: false
+  decision-retention-days: 14
+
+staff:
+  alerts: true
+  # 0 means every enforced decision alerts. /cs alerts toggles your own alerts.
+  alert-cooldown-seconds: 0
+  recent-limit: 200
+  appeal-cooldown-seconds: 60
+
+logging:
+  log-allowed: false
+  log-shadow: true
+  write-decision-log: true
+
+integrations:
+  # EssentialsX's PrivateMessagePreSendEvent is synchronous. This adapter uses
+  # rules-only checks in the event and does not apply ML blocking.
+  essentials-rules-only: true
+
+# LIMITED FALLBACK. This inspects only the commands listed below, only when
+# enabled. It cannot see aliases, rewritten messages or messages sent directly
+# by other plugins. Enable only if the actual delivery path cannot be integrated.
+raw-command-inspection:
+  enabled: false
+  inspect:
+    tell: 1
+    msg: 1
+    w: 1
+    reply: 0
+    r: 0

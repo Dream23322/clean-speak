@@ -1,0 +1,79 @@
+# CleanSpeak actions.yml
+#
+# Per-check actions in the Grim-style format:
+#
+#   [threshold:interval] action
+#
+# threshold  first violation count that triggers the action
+# interval   0 runs once at the threshold; N repeats every N violations after it
+#
+# Built-in actions:
+#   [alert]             staff alert (the normal decision alert is suppressed)
+#   [block]             stop delivery and mark the decision BLOCK
+#   [review]            stop delivery and mark the decision REVIEW
+#   anything else       console command, for example:
+#                       [3:0] mute %player% 1h hate speech
+#
+# Placeholders in commands:
+#   %player% %uuid% %category% %check% %count% %action% %request% %reason%
+#
+# Counters are per player, check and audience. They reset after reset-time
+# seconds of inactivity. Shadow-mode and observation decisions never count and
+# never run actions.
+#
+# Safety: ban, kick, op, pardon, whitelist, stop and restart are skipped unless
+# allow-dangerous-commands is true. The shipped policy has no automatic bans or
+# kicks.
+
+enabled: true
+reset-time: 3600
+allow-dangerous-commands: false
+
+hate-speech:
+  enabled: true
+  reset-time: 100
+  actions:
+    - "[1:0] [block]"
+    - "[1:0] [alert]"
+    - "[3:1] mute %player% 1h hate speech"
+
+targeted-harassment:
+  enabled: true
+  reset-time: 100
+  actions:
+    - "[1:0] [block]"
+    - "[1:0] [alert]"
+    - "[3:1] mute %player% 1h targeted harassment"
+
+threats:
+  enabled: true
+  reset-time: 300
+  actions:
+    - "[1:0] [block]"
+    - "[1:0] [alert]"
+
+spam:
+  enabled: true
+  reset-time: 60
+  actions:
+    - "[1:0] [alert]"
+    # - "[5:0] mute %player% 5m spamming"
+
+scam-advertising:
+  enabled: true
+  reset-time: 600
+  actions:
+    - "[1:0] [block]"
+    - "[1:0] [alert]"
+
+profanity:
+  enabled: false
+  reset-time: 300
+  actions:
+    - "[1:0] [alert]"
+
+other:
+  enabled: true
+  reset-time: 300
+  actions:
+    - "[1:0] [alert]"

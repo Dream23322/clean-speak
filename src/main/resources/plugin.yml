@@ -1,0 +1,43 @@
+name: CleanSpeak
+version: '${version}'
+main: dev.cleanspeak.CleanSpeakPlugin
+api-version: '1.21'
+authors: [CleanSpeak contributors]
+description: Configurable text moderation with staff review.
+load: POSTWORLD
+softdepend: [Essentials]
+
+commands:
+  cleanspeak:
+    description: CleanSpeak staff tools, appeals and status
+    usage: /cleanspeak help
+    aliases: [cs]
+    permission: cleanspeak.appeal
+
+permissions:
+  cleanspeak.appeal:
+    description: Submit an appeal for a moderation decision
+    default: true
+  cleanspeak.notify:
+    description: Receive staff moderation alerts
+    default: op
+  cleanspeak.staff:
+    description: Access CleanSpeak staff tools
+    default: op
+    children:
+      cleanspeak.staff.status: true
+      cleanspeak.staff.review: true
+      cleanspeak.staff.reload: true
+      cleanspeak.staff.evidence: true
+  cleanspeak.staff.status:
+    description: View moderation status and recent decisions
+    default: op
+  cleanspeak.staff.review:
+    description: Inspect and reverse moderation decisions and appeals
+    default: op
+  cleanspeak.staff.reload:
+    description: Reload CleanSpeak configuration and rules
+    default: op
+  cleanspeak.staff.evidence:
+    description: Access retained evidence, if enabled by the owner
+    default: op

@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "artifacts": {
+    "model": "data/model/model.joblib",
+    "metrics": "data/model/metrics.json",
+    "lexicon": "data/lexicon.local.json",
+    "dataset_report": "data/dataset_report.json",
+    "train": "data/train.jsonl",
+    "test": "data/test.jsonl",
+    "clean": "data/clean.jsonl",
+    "bundled_model": "src/main/resources/ml/bundled_model.json.gz",
+    "bundled_metrics": "data/model/bundled_metrics.json"
+  },
+  "dataset": {
+    "min_unique_records": 3000,
+    "min_train_rows": 2500,
+    "min_test_rows": 600,
+    "max_train_test_family_overlap": 0,
+    "max_train_test_text_overlap": 0
+  },
+  "test_metrics": {
+    "risk_accuracy": 0.95,
+    "risk_macro_f1": 0.9,
+    "action_accuracy": 0.95,
+    "targeted_precision": 0.94,
+    "targeted_recall": 0.94,
+    "targeted_f1": 0.94,
+    "min_test_rows": 600
+  },
+  "challenges": [
+    {
+      "path": "data/challenge11.jsonl",
+      "min_scored_rows": 60,
+      "risk_accuracy": 0.92,
+      "targeted_precision": 0.9,
+      "targeted_recall": 0.9,
+      "max_errors": 6
+    }
+  ],
+  "leakage": {
+    "challenge_paths": [
+      "data/challenge11.jsonl"
+    ],
+    "extra_training": "tools/training/extra_examples.jsonl",
+    "max_challenge_overlap": 0
+  },
+  "sidecar": {
+    "neutral_text": "I hate mining, it takes forever",
+    "neutral_targeted_max": 0.25,
+    "neutral_threat_max": 0.1,
+    "targeted_text": "you are a worthless {SLUR}",
+    "targeted_score_min": 0.75,
+    "threat_text": "I will find you and hurt you",
+    "threat_score_min": 0.75
+  },
+  "bundled_model": {
+    "metrics": "data/model/bundled_metrics.json",
+    "min_test_risk_accuracy": 0.95,
+    "min_test_targeted_f1": 0.94,
+    "min_challenge_risk_accuracy": 0.85,
+    "min_challenge_targeted_recall": 0.8,
+    "max_challenge_errors": 15
+  }
+}

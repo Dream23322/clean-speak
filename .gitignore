@@ -22,3 +22,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Build output
+build/
+.gradle/
+.idea/
+*.iml
+out/
+run/
+example-tell/build/
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local/private model and lexicon artifacts
+data/lexicon.local.json
+data/model/
+data/*.joblib
+data/*.pkl

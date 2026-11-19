@@ -1,0 +1,260 @@
+{
+  "categories": {
+    "NONE": 1857,
+    "TARGETED_HARASSMENT": 179,
+    "TARGETED_HATE": 2009,
+    "THREAT": 142
+  },
+  "conflicting_duplicate_groups_rejected": 9,
+  "conflicts": [
+    {
+      "labels": [
+        {
+          "category": "TARGETED_HATE",
+          "label": "REPHRASE",
+          "note": "slur targeting race or ethnicity",
+          "source_line": 7,
+          "targeted": true
+        },
+        {
+          "category": "TARGETED_HATE",
+          "label": "REPHRASE",
+          "note": "directed slur",
+          "source_line": 21,
+          "targeted": true
+        }
+      ],
+      "text": "shut up, you {SLUR}"
+    },
+    {
+      "labels": [
+        {
+          "category": "TARGETED_HATE",
+          "label": "REPHRASE",
+          "note": "religious slur used to exclude a player",
+          "source_line": 10,
+          "targeted": true
+        },
+        {
+          "category": "TARGETED_HATE",
+          "label": "REPHRASE",
+          "note": "directed slur",
+          "source_line": 48,
+          "targeted": true
+        }
+      ],
+      "text": "you don't belong here, {SLUR}"
+    },
+    {
+      "labels": [
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral identity question",
+          "source_line": 90,
+          "targeted": false
+        },
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral identity discussion",
+          "source_line": 720,
+          "targeted": false
+        }
+      ],
+      "text": "what does nonbinary mean?"
+    },
+    {
+      "labels": [
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral informational question",
+          "source_line": 100,
+          "targeted": false
+        },
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral identity discussion",
+          "source_line": 737,
+          "targeted": false
+        }
+      ],
+      "text": "what's the difference between ethnicity and nationality?"
+    },
+    {
+      "labels": [
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral question about server acceptance",
+          "source_line": 102,
+          "targeted": false
+        },
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral identity discussion",
+          "source_line": 719,
+          "targeted": false
+        }
+      ],
+      "text": "is being trans okay on this server?"
+    },
+    {
+      "labels": [
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral identity mention with gameplay praise",
+          "source_line": 110,
+          "targeted": false
+        },
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "identity mention without targeted hate",
+          "source_line": 747,
+          "targeted": false
+        }
+      ],
+      "text": "our Muslim teammate is carrying the round"
+    },
+    {
+      "labels": [
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral statement about identity language",
+          "source_line": 112,
+          "targeted": false
+        },
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral identity discussion",
+          "source_line": 721,
+          "targeted": false
+        }
+      ],
+      "text": "trans is an identity word, not an insult"
+    },
+    {
+      "labels": [
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "positive identity mention, hard negative",
+          "source_line": 164,
+          "targeted": false
+        },
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "positive identity mention, hard negative",
+          "source_line": 217,
+          "targeted": false
+        },
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "neutral identity discussion",
+          "source_line": 1416,
+          "targeted": false
+        }
+      ],
+      "text": "my friend is trans and they are awesome"
+    },
+    {
+      "labels": [
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "describing a map's colors, not targeting a person",
+          "source_line": 339,
+          "targeted": false
+        },
+        {
+          "category": "NONE",
+          "label": "ALLOW",
+          "note": "identity mention without targeted hate",
+          "source_line": 750,
+          "targeted": false
+        }
+      ],
+      "text": "this map is so gay, the colors are everywhere"
+    }
+  ],
+  "context_only_allow_rows": 5,
+  "context_only_examples": [
+    "the word {SLUR} is offensive, right?",
+    "Your mom...",
+    "kys lol jk gg",
+    "this lag is so retarded, why is the TPS at 4",
+    "I'm going to kill your character"
+  ],
+  "duplicate_groups": 72,
+  "duplicates_removed": 76,
+  "labels": {
+    "ALLOW": 1833,
+    "BLOCK": 142,
+    "REPHRASE": 2181,
+    "REVIEW": 31
+  },
+  "raw_objects_recovered": 4301,
+  "rejected_entries": 23,
+  "review_rows": 31,
+  "source_object_counts": {
+    "generated": 3910,
+    "noformat": 391
+  },
+  "sources": [
+    "data\\noformat.txt",
+    "data\\generated.jsonl"
+  ],
+  "target_groups": {
+    "disability": 320,
+    "gender_identity": 477,
+    "nationality": 491,
+    "none": 1355,
+    "other": 285,
+    "race_ethnicity": 403,
+    "religion": 426,
+    "sexual_orientation": 430
+  },
+  "test_categories": {
+    "NONE": 366,
+    "TARGETED_HARASSMENT": 34,
+    "TARGETED_HATE": 402,
+    "THREAT": 28
+  },
+  "test_labels": {
+    "ALLOW": 366,
+    "BLOCK": 28,
+    "REPHRASE": 436
+  },
+  "test_rows": 830,
+  "train_categories": {
+    "NONE": 1462,
+    "TARGETED_HARASSMENT": 138,
+    "TARGETED_HATE": 1607,
+    "THREAT": 114
+  },
+  "train_labels": {
+    "ALLOW": 1462,
+    "BLOCK": 114,
+    "REPHRASE": 1745
+  },
+  "train_rows": 3321,
+  "trainable_rows": 4151,
+  "unique_records": 4187,
+  "valid_records_before_dedupe": 4282,
+  "warnings": [
+    "Synthetic data; not ground truth.",
+    "Review rows are kept separate and are not used for the first model.",
+    "ALLOW rows containing {SLUR} are held out as context-only examples.",
+    "Placeholders remain in clean.jsonl; substitute only in a local training copy.",
+    "Near-duplicate templates may remain; this split is not a guarantee against template leakage."
+  ]
+}

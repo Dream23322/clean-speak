@@ -1,0 +1,123 @@
+# CleanSpeak starter rules
+#
+# These are seed rules for English. They are not a complete lexicon and are not
+# a substitute for local policy. Add rules for the languages and communities on
+# your server. Keep quoted/reported discussions in mind: the policy layer
+# recognises common quotation and reporting cues, but context is imperfect.
+#
+# Rule format:
+#   id: unique id (shown to staff)
+#   category: TARGETED_HARASSMENT, HATE_SLUR, THREAT, SPAM, SCAM_ADVERTISING,
+#             PROFANITY, OTHER
+#   type: TERM or REGEX
+#   action: REPHRASE, REVIEW, BLOCK, ALLOW (no ban action exists)
+#   score: 0.0-1.0 (supporting confidence)
+#   terms: [..] for TERM
+#   pattern: Java regex for REGEX; patterns run against a lower-case analysis
+#            form with punctuation replaced by spaces. They are trusted config.
+#
+# Regexes are intentionally simple to avoid catastrophic backtracking.
+
+rules:
+  - id: "hate.seed-slurs"
+    category: HATE_SLUR
+    type: TERM
+    action: REPHRASE
+    score: 0.88
+    terms:
+      - "faggot"
+      - "faggots"
+      - "fag"
+      - "fags"
+      - "fagg"
+      - "faggs"
+      - "fagot"
+      - "fagots"
+      - "fagget"
+      - "faggets"
+      - "nigger"
+      - "niggers"
+      - "nigga"
+      - "niggas"
+      - "retard"
+      - "retards"
+      - "tranny"
+      - "trannies"
+      - "kike"
+      - "kikes"
+      - "spic"
+      - "spics"
+      - "chink"
+      - "chinks"
+      - "wetback"
+      - "wetbacks"
+
+  - id: "hate.identity-insult"
+    category: HATE_SLUR
+    type: REGEX
+    action: REPHRASE
+    score: 0.90
+    pattern: '\b(?:i|we)\s+(?:hate|despise)\s+(?:trans|gay|lesbian|bisexual|black|asian|jewish|muslim|women|men)\s+(?:sluts?|whores?|trash|scum|animals?)\b|\b(?:trans|gay|lesbian|black|asian|jewish|muslim)\s+(?:sluts?|whores?|trash|scum)\b'
+
+  - id: "harassment.should-not-exist"
+    category: TARGETED_HARASSMENT
+    type: REGEX
+    action: REPHRASE
+    score: 0.90
+    pattern: '\b(?:you\s+people|people\s+like\s+you|your\s+kind)\s+should\s+not\s+exist\b'
+
+  - id: "harassment.kill-yourself"
+    category: TARGETED_HARASSMENT
+    type: REGEX
+    action: REPHRASE
+    score: 0.92
+    pattern: '\b(?:kys|kill\s+your\s*self|go\s+die|drink\s+bleach|neck\s+your\s*self)\b'
+
+  - id: "harassment.nobody-likes-you"
+    category: TARGETED_HARASSMENT
+    type: REGEX
+    action: REPHRASE
+    score: 0.82
+    pattern: '\b(?:nobody|no\s+one)\s+(?:likes|cares\s+about)\s+you\b|\beveryone\s+hates\s+you\b'
+
+  - id: "threat.direct-violence"
+    category: THREAT
+    type: REGEX
+    action: BLOCK
+    score: 0.94
+    pattern: '\b(?:i\s*(?:will|m\s+gonna|m\s+going\s+to)|ill|im\s+gonna|im\s+going\s+to)\s+(?:(?:kill|murder|hurt|stab|shoot|attack|doxx|swat|find)\s+(?:you|u|your\s+(?:family|friends|dog))|beat\s+you\s+up)\b'
+
+  - id: "threat.real-world"
+    category: THREAT
+    type: REGEX
+    action: BLOCK
+    score: 0.95
+    pattern: '\b(?:i\s+know\s+where\s+you\s+live|i\s+will\s+swat\s+you|i\s+will\s+dox\s+you|i\s+will\s+find\s+you)\b'
+
+  - id: "threat.incite-harm"
+    category: THREAT
+    type: REGEX
+    action: BLOCK
+    score: 0.90
+    pattern: '\b(?:someone|somebody)\s+(?:should|needs\s+to)\s+(?:kill|hurt|shoot|stab)\s+(?:you|him|her|them)\b'
+
+  - id: "scam.free-stuff"
+    category: SCAM_ADVERTISING
+    type: REGEX
+    action: BLOCK
+    score: 0.92
+    pattern: '\b(?:free\s+(?:nitro|robux|vbucks|v-bucks|ranks?|money)|claim\s+(?:your\s+)?(?:free\s+)?(?:nitro|reward|gift)|verify\s+your\s+(?:account|microsoft|mojang)|steam\s+gift|airdrop)\b'
+
+  - id: "profanity.optional"
+    category: PROFANITY
+    type: TERM
+    action: REPHRASE
+    score: 0.60
+    enabled: false
+    terms:
+      - "fuck"
+      - "shit"
+      - "bitch"
+      - "asshole"
+      - "cunt"
+      - "dick"
